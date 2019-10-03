@@ -10,6 +10,8 @@
     </div>
     <hr />
     <h1>프로필</h1>
+    <br>
+    <router-link to="/profile/editProfile">프로필 수정하기</router-link>
   </div>
 </template>
 <script>

@@ -45,6 +45,20 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Profile.vue'),
     },
 
+    //프로필 내부 라우팅
+    {
+      path:'/profile/editProfile',
+      name: 'editProfile',
+      component:() => import('./views/profileView/editProfile.vue'),
+      // meta:{transitionName: 'slide'},
+    },
+    {
+      path:'/profile/editprofile/withdrawal',
+      name: 'withdrawal',
+      component:() => import('./views/profileView/withdrawal.vue'),
+      // meta: {transitionName: 'slide'}
+    },
+
     
   ]
 })
