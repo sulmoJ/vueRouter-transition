@@ -50,13 +50,13 @@ export default new Router({
       path:'/profile/editProfile',
       name: 'editProfile',
       component:() => import('./views/profileView/editProfile.vue'),
-      // meta:{transitionName: 'slide'},
+      meta:{transitionName: 'slide'},
     },
     {
       path:'/profile/editprofile/withdrawal',
       name: 'withdrawal',
       component:() => import('./views/profileView/withdrawal.vue'),
-      // meta: {transitionName: 'slide'}
+      meta: {transitionName: 'slide'}
     },
 
     
